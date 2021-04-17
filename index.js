@@ -43,7 +43,7 @@ function Person(name, age) {
   this.age = age;
   this.stomach = [];
 }
-
+// This kept failing!!!!
 Person.prototype.eat = function(someFood) {
   if(this.stomach.length < 10) {
     this.stomach.push(someFood);
